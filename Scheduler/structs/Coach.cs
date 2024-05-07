@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Scheduler.structs
 {
     /// <summary>
-    /// Struct for a coach, id, name, and teams
+    /// Object for a coach,name, and teams
     /// </summary>
     public class Coach
     {

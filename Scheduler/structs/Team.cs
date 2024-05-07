@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Scheduler.structs
 {
+    /// <summary>
+    /// Team object
+    /// </summary>
     public class Team
     {
         public string name {get ; set;}
@@ -21,7 +24,7 @@ namespace Scheduler.structs
         /// </summary>
         /// <param name="name">name of the team</param>
         /// <param name="games">list of datetime and games</param>
-        public Team(string name, int ageGroup, List<Game> games, List<Coach> coaches)
+        public Team(string name, int ageGroup, List<Game>? games = null, List<Coach>? coaches = null)
         {
             this.name = name;
             this.ageGroup = ageGroup;

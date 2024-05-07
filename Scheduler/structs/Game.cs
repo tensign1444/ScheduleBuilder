@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Scheduler.structs
 {
+    /// <summary>
+    /// Game object
+    /// </summary>
     public class Game
     {
         public string homeTeam {  get; set; }
